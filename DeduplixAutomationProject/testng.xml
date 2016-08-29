@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Deduplix_Test_Suite" parallel="false">
+
+<!-- Tests for Legacy Cluster mode -->
+  <test name="Test_LegacyCluster">
+  	<classes>
+  		<class name = "com.ixsight.deduplix.automation.testscripts.LegacyCluster"></class>
+  	</classes>
+  </test>
+  
+<!--   >
+  <test name="Test_LegacyReference">
+  	<classes>
+  		<class name = "com.ixsight.deduplix.automation.testscripts.LegacyReference"></class>
+  	</classes>
+  </test>
+  
+  Tests for Incremental Cluster cluster mode
+  <test name="Test_IncrementalCluster">
+  	<classes>
+  		<class name = "com.ixsight.deduplix.automation.testscripts.IncrementalCluster"></class>
+  	</classes>
+  </test>  
+  
+  Tests for Incremental Reference cluster mode
+  <test name="Test_IncrementalReference">
+  	<classes>
+  		<class name = "com.ixsight.deduplix.automation.testscripts.IncrementalReference"></class>
+  	</classes>
+  </test> -->
+  
+</suite>

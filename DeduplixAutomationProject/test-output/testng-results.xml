@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Deduplix_Test_Suite" duration-ms="2018" started-at="2016-08-29T13:33:37Z" finished-at="2016-08-29T13:33:39Z">
+    <groups>
+    </groups>
+    <test name="Test_LegacyCluster" duration-ms="2018" started-at="2016-08-29T13:33:37Z" finished-at="2016-08-29T13:33:39Z">
+      <class name="com.ixsight.deduplix.automation.testscripts.LegacyCluster">
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="6" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOFMLC1_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(with only one output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Exclude length
+Local_City-6
+Local_postalcode -6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_DOB_CITY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied Exclude Length and single rule]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOMMLC2_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(combination of output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Match Method
+1.Exclude Length Record
+2.Exclude Length Field
+3. First N C
+4.Last N C]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[PIN_PAN_GENDER
+NAME_DOB]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied Match method and multiple rules]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOACPLC3_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(with only one output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Advance Configuration
+1.Noise Words
+ FULLNAME- Rao, shri,shree
+2.validate pattern
+  DOB,POSTALCODE
+3.Numeric
+FULLNAME,GENDER,CITY,STATE,OTHER7
+4.alphabet
+POSTALCODE
+5.duplicate word
+FULLADDRESS- 
+   Bank- axis bank
+6.single character
+FULLNAME,DOB,
+7.Last word
+FULLADDRESS,OTHER2
+8.word in bracket
+CITY,STATE,POSTALCODE,OTHER1,FULLNAME
+9.spaces
+CITY,STATE]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_CITY_DOB]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied Advance configuration setting to various fields and single rule is set]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="0" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOACMLC4_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(combination of output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Advance Configuration
+1. Join two words
+  FULLNAME
+  Raghu-nandan
+  FULLADDRESS
+  Prasad-kunj
+  Prabhu-kunj
+ OTHER1
+ B70-4
+2. Split Two words
+ Vilramaditya]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[O2STRADD_O5PIN_PAN
+NAME_CITY_NATIONALITY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass 1- DOB
+Pass2- GENDER]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied Advance configuration setting to various fields and multiple rules is set]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="0" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOPCMLC5_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(with only one output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_DOB_STREETADD
+NAME_DOB_O2STREETADD
+GENDER_NATIONALITY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.fulladdress_passive->other2_passive_perm_streetadd
+
+2.other2_passive_perm_streetadd
+→fulladdress_passiv]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass1- POSTALCODE
+Pass2- CITY,OTHER3_CITY
+Pass3-OTHER6_PAN]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied multiple rules with cross matching and blocking is set ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOMCMLC6_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(combination of output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_DOB_STREETADD
+NAME_DOB_O2STREETADD
+GENDER_NATIONALITY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.fulladdress_passive->other2_passive_perm_streetadd
+
+2.other2_passive_perm_streetadd
+→fulladdress_passive]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass1- POSTALCODE
+Pass2- CITY,OTHER3_CITY
+Pass3-OTHER6_PAN]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied multiple rules with cross matching and blocking is set ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOPCCLC7_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(with only one output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Completeness configuration 
+Priority 1- FULLNAME
+Priority 2- DOB]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_DOB_ADD]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied completeness configuration and one rule is set ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1822" started-at="2016-08-29T19:03:37Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOMCCLC8_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(combination of output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Completeness configuration 
+Priority 1- DOB
+Priority 2- PAN]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_ADD_DOB_PAN]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied completeness configuration and one rule is set ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1" started-at="2016-08-29T19:03:39Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOLC9_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(with only one output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Exclude length
+Local_City-6
+Local_postalcode-6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_CITY_STATE
+DOB_GENDER_NATIONALITY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[city_passive->o3_passive_perm_city
+state_passive
+→o4_passive_perm_state]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass 1- POSTALCODE, 
+   OTHER5_POSTALCODE
+Pass 2- OTHER6_PAN
+Pass 3 -HOUSE         ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied Exclude Length,multiple rules, cross matching and blocking ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+        <test-method status="PASS" signature="preprocessMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728]" name="preprocessMatch" duration-ms="1" started-at="2016-08-29T19:03:39Z" data-provider="Testcase reader" finished-at="2016-08-29T19:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUTO_TC_10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUTOLC10_India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LEGACY CLUSTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AUTOMATION_BASE_LC1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Field mapping
+(combination of output type)]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Match Method
+1.Exclude Length Record
+2.Exclude Length Field
+3. First N C
+4.Last N C]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NAME_CITY_STATE
+DOB_GENDER_NATIONALITY]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[city_passive->o3_passive_perm_city
+state_passive
+→o4_passive_perm_state]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass 1- POSTALCODE, 
+   OTHER5_POSTALCODE
+ Last 4 char of DOB
+Pass 2- PAN
+Pass 3 -HOUSE     ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Applied Exclude Length,multiple rules, cross matching and blocking ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Dictionary]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Matching records should be according to applied rule]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[\\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[\\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Swati and Priyanka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preprocessMatch -->
+      </class> <!-- com.ixsight.deduplix.automation.testscripts.LegacyCluster -->
+    </test> <!-- Test_LegacyCluster -->
+  </suite> <!-- Deduplix_Test_Suite -->
+</testng-results>

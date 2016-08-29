@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  Test_LegacyCluster</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_LegacyCluster</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 29 19:03:37 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2018 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Exclude length
+Local_City-6
+Local_postalcode -6, , NAME_DOB_CITY, NO, NO, , Applied Exclude Length and single rule, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Match Method
+1.Exclude Length Record
+2.Exclude Length Field
+3. First N C
+4.Last N C, , PIN_PAN_GENDER
+NAME_DOB, NO, NO, , Applied Match method and multiple rules, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Advance Configuration
+1.Noise Words
+ FULLNAME- Rao, shri,shree
+2.validate pattern
+  DOB,POSTALCODE
+3.Numeric
+FULLNAME,GENDER,CITY,STATE,OTHER7
+4.alphabet
+POSTALCODE
+5.duplicate word
+FULLADDRESS- 
+   Bank- axis bank
+6.single character
+FULLNAME,DOB,
+7.Last word
+FULLADDRESS,OTHER2
+8.word in bracket
+CITY,STATE,POSTALCODE,OTHER1,FULLNAME
+9.spaces
+CITY,STATE, , NAME_CITY_DOB, NO, NO, , Applied Advance configuration setting to various fields and single rule is set, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Advance Configuration
+1. Join two words
+  FULLNAME
+  Raghu-nandan
+  FULLADDRESS
+  Prasad-kunj
+  Prabhu-kunj
+ OTHER1
+ B70-4
+2. Split Two words
+ Vilramaditya, , O2STRADD_O5PIN_PAN
+NAME_CITY_NATIONALITY, NO, Pass 1- DOB
+Pass2- GENDER, , Applied Advance configuration setting to various fields and multiple rules is set, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), NO, , NAME_DOB_STREETADD
+NAME_DOB_O2STREETADD
+GENDER_NATIONALITY, 1.fulladdress_passive->other2_passive_perm_streetadd
+
+2.other2_passive_perm_streetadd
+?fulladdress_passiv, Pass1- POSTALCODE
+Pass2- CITY,OTHER3_CITY
+Pass3-OTHER6_PAN, , Applied multiple rules with cross matching and blocking is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), NO, , NAME_DOB_STREETADD
+NAME_DOB_O2STREETADD
+GENDER_NATIONALITY, 1.fulladdress_passive->other2_passive_perm_streetadd
+
+2.other2_passive_perm_streetadd
+?fulladdress_passive, Pass1- POSTALCODE
+Pass2- CITY,OTHER3_CITY
+Pass3-OTHER6_PAN, , Applied multiple rules with cross matching and blocking is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Completeness configuration 
+Priority 1- FULLNAME
+Priority 2- DOB, , NAME_DOB_ADD, NO, NO, , Applied completeness configuration and one rule is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Completeness configuration 
+Priority 1- DOB
+Priority 2- PAN, , NAME_ADD_DOB_PAN, NO, NO, , Applied completeness configuration and one rule is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>1</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Exclude length
+Local_City-6
+Local_postalcode-6, , NAME_CITY_STATE
+DOB_GENDER_NATIONALITY, city_passive->o3_passive_perm_city
+state_passive
+?o4_passive_perm_state, Pass 1- POSTALCODE, 
+   OTHER5_POSTALCODE
+Pass 2- OTHER6_PAN
+Pass 3 -HOUSE         , , Applied Exclude Length,multiple rules, cross matching and blocking , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+<tr>
+<td title='com.ixsight.deduplix.automation.testscripts.LegacyCluster.preprocessMatch()'><b>preprocessMatch</b><br>Test class: com.ixsight.deduplix.automation.testscripts.LegacyCluster<br>Parameters: AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Match Method
+1.Exclude Length Record
+2.Exclude Length Field
+3. First N C
+4.Last N C, , NAME_CITY_STATE
+DOB_GENDER_NATIONALITY, city_passive->o3_passive_perm_city
+state_passive
+?o4_passive_perm_state, Pass 1- POSTALCODE, 
+   OTHER5_POSTALCODE
+ Last 4 char of DOB
+Pass 2- PAN
+Pass 3 -HOUSE     , , Applied Exclude Length,multiple rules, cross matching and blocking , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka </td>
+<td></td>
+<td>0</td>
+<td>com.ixsight.deduplix.automation.testscripts.LegacyCluster@326de728</td></tr>
+</table><p>
+</body>
+</html>

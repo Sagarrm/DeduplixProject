@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Deduplix_Test_Suite">
+              <span class="suite-name border-passed">Deduplix_Test_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Deduplix_Test_Suite">
+                    <span>D:\Personal\Learning\DeduplixAutomationProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Deduplix_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Deduplix_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Deduplix_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Deduplix_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Deduplix_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Deduplix_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Deduplix_Test_Suite" class="hide-methods passed suite-Deduplix_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Deduplix_Test_Suite -->
+                      <a href="#" panel-name="suite-Deduplix_Test_Suite" class="show-methods passed suite-Deduplix_Test_Suite"> (show)</a> <!-- show-methods passed suite-Deduplix_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Deduplix_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)">preprocessMatch(AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)">preprocessMatch(AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)">preprocessMatch(AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one outp...)">preprocessMatch(AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one outp...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one ou...)">preprocessMatch(AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one ou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)">preprocessMatch(AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)">preprocessMatch(AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)">preprocessMatch(AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)">preprocessMatch(AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Deduplix_Test_Suite" title="com.ixsight.deduplix.automation.testscripts.LegacyCluster" hash-for-method="preprocessMatch(AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)">preprocessMatch(AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Deduplix_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Deduplix_Test_Suite" class="panel Deduplix_Test_Suite">
+          <div class="suite-Deduplix_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ixsight.deduplix.automation.testscripts.LegacyCluster</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), NO, , NAME_DOB_STREETADD
+NAME_DOB_O2STREETADD
+GENDER_NATIONALITY, 1.fulladdress_passive->other2_passive_perm_streetadd
+
+2.other2_passive_perm_streetadd
+→fulladdress_passive, Pass1- POSTALCODE
+Pass2- CITY,OTHER3_CITY
+Pass3-OTHER6_PAN, , Applied multiple rules with cross matching and blocking is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Advance Configuration
+1.Noise Words
+ FULLNAME- Rao, shri,shree
+2.validate pattern
+  DOB,POSTALCODE
+3.Numeric
+FULLNAME,GENDER,CITY,STATE,OTHER7
+4.alphabet
+POSTALCODE
+5.duplicate word
+FULLADDRESS- 
+   Bank- axis bank
+6.single character
+FULLNAME,DOB,
+7.Last word
+FULLADDRESS,OTHER2
+8.word in bracket
+CITY,STATE,POSTALCODE,OTHER1,FULLNAME
+9.spaces
+CITY,STATE, , NAME_CITY_DOB, NO, NO, , Applied Advance configuration setting to various fields and single rule is set, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Completeness configuration 
+Priority 1- DOB
+Priority 2- PAN, , NAME_ADD_DOB_PAN, NO, NO, , Applied completeness configuration and one rule is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one outp...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one outp...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Exclude length
+Local_City-6
+Local_postalcode-6, , NAME_CITY_STATE
+DOB_GENDER_NATIONALITY, city_passive->o3_passive_perm_city
+state_passive
+→o4_passive_perm_state, Pass 1- POSTALCODE, 
+   OTHER5_POSTALCODE
+Pass 2- OTHER6_PAN
+Pass 3 -HOUSE         , , Applied Exclude Length,multiple rules, cross matching and blocking , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one ou...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one ou...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Exclude length
+Local_City-6
+Local_postalcode -6, , NAME_DOB_CITY, NO, NO, , Applied Exclude Length and single rule, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Match Method
+1.Exclude Length Record
+2.Exclude Length Field
+3. First N C
+4.Last N C, , PIN_PAN_GENDER
+NAME_DOB, NO, NO, , Applied Match method and multiple rules, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Advance Configuration
+1. Join two words
+  FULLNAME
+  Raghu-nandan
+  FULLADDRESS
+  Prasad-kunj
+  Prabhu-kunj
+ OTHER1
+ B70-4
+2. Split Two words
+ Vilramaditya, , O2STRADD_O5PIN_PAN
+NAME_CITY_NATIONALITY, NO, Pass 1- DOB
+Pass2- GENDER, , Applied Advance configuration setting to various fields and multiple rules is set, Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of output type), Match Method
+1.Exclude Length Record
+2.Exclude Length Field
+3. First N C
+4.Last N C, , NAME_CITY_STATE
+DOB_GENDER_NATIONALITY, city_passive->o3_passive_perm_city
+state_passive
+→o4_passive_perm_state, Pass 1- POSTALCODE, 
+   OTHER5_POSTALCODE
+ Last 4 char of DOB
+Pass 2- PAN
+Pass 3 -HOUSE     , , Applied Exclude Length,multiple rules, cross matching and blocking , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), Completeness configuration 
+Priority 1- FULLNAME
+Priority 2- DOB, , NAME_DOB_ADD, NO, NO, , Applied completeness configuration and one rule is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="preprocessMatch(AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)">
+                  </a> <!-- preprocessMatch(AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...) -->
+                  <span class="method-name">preprocessMatch</span>
+                  <span class="parameters">(AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one output type), NO, , NAME_DOB_STREETADD
+NAME_DOB_O2STREETADD
+GENDER_NATIONALITY, 1.fulladdress_passive->other2_passive_perm_streetadd
+
+2.other2_passive_perm_streetadd
+→fulladdress_passiv, Pass1- POSTALCODE
+Pass2- CITY,OTHER3_CITY
+Pass3-OTHER6_PAN, , Applied multiple rules with cross matching and blocking is set , Dictionary, Matching records should be according to applied rule, , \\Automation_Deduplix\DEDUPLIX_BenchMarkingVersion_Build1.8\Deduplix.exe, \\Automation_Deduplix\DEDUPLIX_TestingVersion_Build1.8.2\Deduplix.exe, , \\Automation_Deduplix\Projects_TestingVersion1.8.2\ProjectFile_Leg_Cluster, \\Automation_Deduplix\Projects_BenchMarkingVersion1.8\ProjectFile_Leg_Cluster, Swati and Priyanka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Deduplix_Test_Suite-class-passed -->
+        </div> <!-- panel Deduplix_Test_Suite -->
+        <div panel-name="test-xml-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Personal\Learning\DeduplixAutomationProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Deduplix_Test_Suite&quot;&gt;
+  &lt;test name=&quot;Test_LegacyCluster&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ixsight.deduplix.automation.testscripts.LegacyCluster&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_LegacyCluster --&gt;
+&lt;/suite&gt; &lt;!-- Deduplix_Test_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Deduplix_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test_LegacyCluster (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Deduplix_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Deduplix_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Deduplix_Test_Suite');
+function tableData_Deduplix_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'preprocessMatch')
+data.setCell(0, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(0, 3, 1822);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'preprocessMatch')
+data.setCell(1, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'preprocessMatch')
+data.setCell(2, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'preprocessMatch')
+data.setCell(3, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'preprocessMatch')
+data.setCell(4, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'preprocessMatch')
+data.setCell(5, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'preprocessMatch')
+data.setCell(6, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'preprocessMatch')
+data.setCell(7, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'preprocessMatch')
+data.setCell(8, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'preprocessMatch')
+data.setCell(9, 2, 'com.ixsight.deduplix.automation.testscripts.LegacyCluster')
+data.setCell(9, 3, 0);
+window.suiteTableData['Deduplix_Test_Suite']= { tableData: data, tableDiv: 'times-div-Deduplix_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Deduplix_Test_Suite">
+              </div> <!-- times-div-Deduplix_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Deduplix_Test_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Deduplix_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ixsight.deduplix.automation.testscripts.LegacyCluster</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_1, AUTOFMLC1_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one ou...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_2, AUTOMMLC2_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_3, AUTOACPLC3_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_4, AUTOACMLC4_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_5, AUTOPCMLC5_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_6, AUTOMCMLC6_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_7, AUTOPCCLC7_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one o...)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_8, AUTOMCCLC8_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of ...)</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_9, AUTOLC9_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(with only one outp...)</span>
+                <span class="method-start">1837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">preprocessMatch(AUTO_TC_10, AUTOLC10_India, LEGACY CLUSTER, AUTOMATION_BASE_LC1, NO, Field mapping
+(combination of o...)</span>
+                <span class="method-start">1839 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
